@@ -4,7 +4,8 @@ To run this project, download the zip code and open the directory in terminal
 
 ```
 $ npm install
-// By running npx hardhat node we spin up an instance of Hardhat Network that you can connect to using MetaMask.
+// By running npx hardhat node we spin up an instance of Hardhat Network
+// that you can connect to using MetaMask.
 $ npx hardhat node  
 ```
 
@@ -68,7 +69,7 @@ Then you will see:
 
 <img width="1024" alt="Screen Shot 2022-02-07 at 3 11 25 PM" src="https://user-images.githubusercontent.com/68840528/152741473-ddb81215-612f-4110-9235-58479d8839b9.png">
 
-Now we can use the approvers' accounts to approve the contract!
+Now we can use the approvers' accounts to approve the transfer!
 As soon as the approvers reach the quorum we've set in /scripts/deploy.js which is 2 now, we'll send the amount to the receiver account.
 
 ## References
